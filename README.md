@@ -8,25 +8,5 @@ I focus on analyzing and designing interactive systems that bridge technology, b
 
 ## Projects
 
-
-## Skills
-- Data collection & analysis
-- Project management
-- Mixed methods research
-- Data visualization
-- Game design & development
-- Python & JavaScript programming
-- 2D Graphic design
-- UI/UX design
-- Ludology fundamentals
-- Computer-proficient
-- Critical thinking
-- Problem-solving
-- Creativity
-
-## Languages
-- English (Fluent)
-- Korean (Fluent)
-
 ## Contact
 ericyang.yang@mail.utoronto.ca

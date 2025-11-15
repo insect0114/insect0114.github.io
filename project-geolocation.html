@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geolocation RPG – Eric Yang</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" style="text-decoration: none; color: inherit;">
+        <span class="logo-name">Eric Yang</span>
+        <span class="logo-tagline">Technology · Media · Research</span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        ◑
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <p style="margin-bottom: 0.75rem;">
+          <a href="index.html#projects" style="text-decoration: none; font-size: 0.85rem;">
+            ← Back to Projects
+          </a>
+        </p>
+
+        <h1>Geolocation RPG</h1>
+        <p class="meta" style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+          Role: Research · Prototyping · Documentation
+        </p>
+
+        <!-- Overview -->
+        <h2>Overview</h2>
+        <p>
+          Geolocation RPG is a location-tracking game inspired by Dungeons and Dragons that
+          encourages players to move through real-world spaces while engaging with narrative,
+          choice, and character progression. The project explores how location-based mechanics
+          can support physical, mental, and spiritual well-being rather than just reward
+          grinding or time spent in-app.
+        </p>
+
+        <!-- Context & Goals -->
+        <h2>Context & Goals</h2>
+        <p>
+          This project sits at the intersection of game design, user psychology, and media
+          studies. The primary goal is to understand how geolocation mechanics and narrative
+          structure can:
+        </p>
+        <ul>
+          <li>Motivate players to explore their surroundings in meaningful ways,</li>
+          <li>Encourage reflection and intentional play rather than compulsive checking, and</li>
+          <li>Support different dimensions of well-being through quests and story events.</li>
+        </ul>
+        <p>
+          Design questions guiding the project include how far we can push tabletop-style
+          roleplaying and decision-making into a location-based format without overwhelming
+          players or turning the experience into pure grind.
+        </p>
+
+        <!-- Core Design -->
+        <h2>Core Design</h2>
+        <p>
+          The game is structured around a node-based map of locations, each tied to
+          quests, encounters, or story beats. Players move between nodes in the real world
+          and unlock:
+        </p>
+        <ul>
+          <li>
+            <strong>Story encounters</strong> – choices and dialog with consequences for future events,
+          </li>
+          <li>
+            <strong>Check-in tasks</strong> – short reflective or activity-based prompts (e.g., journaling, observation),
+          </li>
+          <li>
+            <strong>Class and character progression</strong> – light RPG-style upgrades tied to play style rather than
+            raw grinding.
+          </li>
+        </ul>
+        <p>
+          The system borrows from tabletop RPGs (D&amp;D-style roles and narrative branching) while
+          remaining lightweight enough to be used in everyday life.
+        </p>
+
+        <!-- Mechanics & Structure -->
+        <h2>Game Mechanics & Structure</h2>
+        <p>
+          The early prototype focuses on a small region with a limited set of nodes, each
+          representing a type of space (e.g., quiet study areas, walking paths, social spaces).
+          Mechanics include:
+        </p>
+        <ul>
+          <li>
+            <strong>Location-triggered events:</strong> reaching a node unlocks a new scene, quest, or prompt.
+          </li>
+          <li>
+            <strong>Dice-influenced outcomes:</strong> light dice-based resolution for certain choices, echoing tabletop
+            roleplay.
+          </li>
+          <li>
+            <strong>Non-linear progression:</strong> players can choose different paths and revisit locations with new
+            context or story branches.
+          </li>
+        </ul>
+        <p>
+          Rather than focusing on win conditions, the design emphasizes reflective play and
+          a sense of ongoing journey.
+        </p>
+
+        <!-- Research Approach -->
+        <h2>Research Approach</h2>
+        <p>
+          The project is designed to support mixed methods research on how players interact
+          with geolocation-based systems. Planned and ongoing work includes:
+        </p>
+        <ul>
+          <li>
+            <strong>Qualitative feedback:</strong> interviews and open-ended responses about motivation, friction, and
+            perceived value.
+          </li>
+          <li>
+            <strong>Behavioral data:</strong> patterns of movement, node visitation, and quest completion over time.
+          </li>
+          <li>
+            <strong>Experience sampling:</strong> short check-ins at key moments to capture mood and engagement in context.
+          </li>
+        </ul>
+        <p>
+          The aim is to connect visible player behavior (where they go and what they do) with
+          self-reported experience and perceived impact on well-being.
+        </p>
+
+        <!-- Process -->
+        <h2>Process</h2>
+        <p>
+          The current state of the project has gone through several phases:
+        </p>
+        <ol>
+          <li>
+            <strong>Concept &amp; system sketching:</strong> defining the core loop, the structure of nodes, and
+            how tabletop-style decision-making could map onto GPS-based movement.
+          </li>
+          <li>
+            <strong>Narrative and quest design:</strong> outlining small scenarios that fit into daily movement patterns
+            (campus, neighborhood, commute) rather than requiring special trips.
+          </li>
+          <li>
+            <strong>Prototype documentation:</strong> building design documents and flow diagrams to support future
+            digital implementations.
+          </li>
+          <li>
+            <strong>Early playtesting plans:</strong> preparing small-scale tests to validate whether the structure
+            feels engaging without being burdensome.
+          </li>
+        </ol>
+
+        <!-- Tools & Contributions -->
+        <h2>Tools & Responsibilities</h2>
+        <p>
+          My contributions to Geolocation RPG include:
+        </p>
+        <ul>
+          <li>Designing the core game loop and node/region structure,</li>
+          <li>Drafting quests, events, and reflective prompts for different location types,</li>
+          <li>Documenting rules, flows, and system behavior for future implementation, and</li>
+          <li>Defining an initial research plan for evaluating engagement and well-being outcomes.</li>
+        </ul>
+        <p>
+          Tools used include digital documentation and mapping tools for structuring regions and
+          nodes, along with standard design and note-taking software for iteration.
+        </p>
+
+        <!-- Status / Next Steps -->
+        <h2>Status & Next Steps</h2>
+        <p>
+          The project is currently in the documented prototype stage, with system rules, narrative
+          beats, and node structures outlined. Next steps include:
+        </p>
+        <ul>
+          <li>Building a small digital or hybrid prototype to test with a limited group of players,</li>
+          <li>Collecting initial feedback on usability, motivation, and narrative clarity, and</li>
+          <li>Refining mechanics based on real-world play and movement patterns.</li>
+        </ul>
+
+        <p style="margin-top: 2rem;">
+          <a href="index.html#projects" class="btn-primary">Back to All Projects</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Eric Yang. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

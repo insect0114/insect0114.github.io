@@ -9,7 +9,9 @@ I focus on analyzing and designing interactive systems that bridge technology, b
 # Projects
 
 #### Geolocation RPG
-Collaborate with a research team including a professor of Health Education and a consulting psychiatrist to develop a novel framework for gamifying holistic well-being
+Collaborate with a research team including a professor of Health Education and a consulting psychiatrist to develop a novel framework for gamifying holistic well-being.
+<img width="1245" height="1800" alt="base_game" src="https://github.com/user-attachments/assets/38c303ec-78d0-4440-9013-0d35782f7642" />
+
 
 #### 
 

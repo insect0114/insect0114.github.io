@@ -1,18 +1,3 @@
-/* Light mode (default) */
-body {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-/* Dark mode (automatic if user system is dark) */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: #e0e0e0;
-  }
-}
-
-
 # Eric Yang
 Hello. I am Eric, an interdisciplinary technology + media student researching
 user psychology, communications, and design. I use my understanding of human behavior

@@ -1,7 +1,11 @@
-# Eric Yang
-Hello. I am Eric, an interdisciplinary technology + media student researching
-user psychology, communications, and design. I use my understanding of human behavior
-and computers to solve design problems.
+# Eric Yang – Portfolio
 
-#### About Me
-I focus on analyzing and designing interactive systems that bridge technology, behavior, and media. My work spans user research, game-based learning, and digital experiences, with an emphasis on how people engage with interactive environments. I enjoy creating small prototypes and visual diagrams to guide people through understanding.
+This repository hosts my personal portfolio site, built with plain HTML, CSS, and JavaScript and deployed using GitHub Pages.
+
+Sections:
+- About Me
+- Projects
+- Skills
+- Contact
+
+To run locally, open `index.html` in a browser.

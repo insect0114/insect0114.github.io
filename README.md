@@ -9,3 +9,4 @@ Sections:
 - Contact
 
 To run locally, open `index.html` in a browser.
+https://insect0114.github.io/ericyang.github.io/
